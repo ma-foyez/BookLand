@@ -1,0 +1,10 @@
+.custome-cart p{
+    font-size: 20px;
+    margin: 5px;
+}
+.react sup, .cart sup{
+    color: #fff;
+    background-color: #F22462;
+    border-radius: 50%;
+    padding: 2px 4px;
+}

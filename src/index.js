@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "rsuite/lib/styles/index.less";
+import "rsuite/dist/styles/rsuite-default.css";
 ReactDOM.render(
   <React.StrictMode>
     <App />

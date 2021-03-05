@@ -1,0 +1,27 @@
+.social i {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.facebook {
+    background-color: #1E33E5;
+}
+.twitter{
+    background-color: #3CB5DB;
+}
+.whatsapp{
+    background-color: #53C258;
+}
+.message{
+    background-color: #AAAAAA;
+}
+.review i{
+    color: #EAA451;
+}
+.liker{
+    margin-top: 0px;
+}
+.bookPubliser{
+    margin-right: 10px;
+}

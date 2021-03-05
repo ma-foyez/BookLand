@@ -1,14 +1,18 @@
 import React from 'react';
-import BookCard from '../../Components/Header/BookCard/BookCard';
-import Footer from '../../Components/Header/Footer/Footer';
 import Header from '../../Components/Header/Header';
-import SubscribeSection from '../../Components/Header/SubscribeSection/SubscribeSection';
+import BookCard from '../../Components/BookCard/BookCard';
+import LetestNews from '../../Components/LetestNews/LetestNews';
+import Dashboard from '../../Components/Dashboard/Dashboard';
+import SubscribeSection from '../../Components/SubscribeSection/SubscribeSection';
+import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
     return (
         <>
             <Header />
             <BookCard />
+            <LetestNews />
+            <Dashboard />
             <SubscribeSection />
             <Footer />
         </>

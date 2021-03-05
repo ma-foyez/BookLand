@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Views/Home/Home';
+import Details from './Views/Details/Details';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/details/:id">
+            <Details />
           </Route>
         </Switch>
       </Router>

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import booksData from '../../../assets/staticData/booksData'
+import booksData from '../../assets/staticData/booksData'
 import './BookCard.css'
 const BookCard = () => {
-    console.log('booksData :>> ', booksData);
     return (
         <Container>
             <Row className="mt-5 justify-content-center">
@@ -27,7 +26,7 @@ const BookCard = () => {
                                     <p className="font-weight-bold">{item.author}</p>
                                 </Card.Body>
                                 <Card.Footer className="card-bottom">
-                                    <Link to='/home' className="btn custome-btn"><i className="fas fa-cart-plus ml-1"> Add to cart</i></Link>
+                                    <Link to={`/details/${item.id}`} className="btn custome-btn"><i className="fas fa-cart-plus ml-1"> Add to cart</i></Link>
                                     <div className="price d-flex">
                                         <h5 className="regularPrice mr-2">${item.price}</h5>
                                         <h6 className="offerPrice">${item.offerPrice}</h6>

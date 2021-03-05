@@ -7,6 +7,7 @@ var BooksData = [
         price: '36',
         offerPrice: '26',
         author: 'Kevin Smiley',
+        rating: '4'
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ var BooksData = [
         price: '50',
         offerPrice: '46',
         author: 'David Here',
+        rating: '3'
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ var BooksData = [
         price: '50',
         offerPrice: '25',
         author: 'Margaretha Helew',
+        rating: '4'
     },
     
 ]
