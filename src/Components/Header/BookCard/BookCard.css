@@ -1,0 +1,32 @@
+.custom-card img {
+    border-radius: 0px 0px 10px 10px!important;
+}
+
+.custom-card {
+    transition: 0.8s;
+}
+
+.custom-card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 13px 15px 15px -12px rgb(47 47 47 / 77%);
+    -moz-box-shadow: 13px 15px 15px -12px rgb(47 47 47 / 77%);
+    box-shadow: 13px 15px 15px -12px rgb(47 47 47 / 77%);
+}
+    .card-bottom {
+        background: none!important;
+        border: none!important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .description {
+        text-align: justify;
+        font-weight: 400;
+        color: rgb(162 162 162);
+    }
+    .regularPrice {
+        font-weight: 800;
+    }
+    .offerPrice {
+        color: rgb(177 177 177);
+        text-decoration: line-through;
+    }

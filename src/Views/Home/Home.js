@@ -1,10 +1,17 @@
 import React from 'react';
+import BookCard from '../../Components/Header/BookCard/BookCard';
+import Footer from '../../Components/Header/Footer/Footer';
+import Header from '../../Components/Header/Header';
+import SubscribeSection from '../../Components/Header/SubscribeSection/SubscribeSection';
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header />
+            <BookCard />
+            <SubscribeSection />
+            <Footer />
+        </>
     );
 };
 

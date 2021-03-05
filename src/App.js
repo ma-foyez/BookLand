@@ -1,11 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './Views/Home/Home';
 function App() {
   return (
     <div className="App">
-     <Button>Hello</Button>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

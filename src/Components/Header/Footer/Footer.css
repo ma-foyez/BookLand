@@ -1,0 +1,43 @@
+.footerText {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.footer-img img {
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.social i {
+    margin-left: 25px;
+    font-size: 20px;
+}
+.social i:hover{
+    cursor: pointer;
+}
+.socialFacebook {
+    color: #1E33E5;
+}
+.socialYoutube{
+    color: red;
+}
+.socialTwitter{
+    color: #3CB5DB;
+}
+.socialLinkedIn{
+    color: #286FA3;
+}
+.socialInstagram{
+    color: #FD3E77;
+}
+.getInTOuch{
+    margin-bottom: 25px;
+}
+.brandIcon i{
+    color: #EAA451;
+    font-size: 20px;
+}
+.footer-bottom {
+    border-top: 1px solid #e8e8e8;
+    padding: 5px;
+}
