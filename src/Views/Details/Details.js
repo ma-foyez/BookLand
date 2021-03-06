@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import BookCategory from '../../Components/BookCategory/BookCategory';
 import BookDetails from '../../Components/BookDetails/BookDetails';
 import Dashboard from '../../Components/Dashboard/Dashboard';
 import DetailsHeader from '../../Components/DetailsHeader/DetailsHeader';
@@ -16,6 +17,7 @@ const Details = () => {
             <Testimonial />
             <Dashboard />
             <SubscribeSection />
+            <BookCategory />
             <Footer />
         </>
     );

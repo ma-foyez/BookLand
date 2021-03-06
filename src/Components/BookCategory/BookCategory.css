@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+.book-category {
+    margin-top: 10px;
+}
+
+.book-category a {
+    text-decoration: none!important;
+    color: #5f5f5f;
+    background: #fff;
+    display: block;
+    transition: 0.8s;
+}
+
+.book-category a:hover {
+    color: #131045!important;
+}
+.custome-link{
+    color: #EAA451!important;
+    font-weight: 800;
+}

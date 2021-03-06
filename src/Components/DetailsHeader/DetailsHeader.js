@@ -33,7 +33,7 @@ const DetailsHeader = () => {
                                 <i className="far fa-heart"></i> <sup>01</sup>
                             </p>
                             <p className="cart">
-                                <i className="fas fa-cart-plus ml-1"></i> <sup>26</sup>
+                                <i className="fas fa-cart-plus"></i> <sup>26</sup>
                             </p>
                         </div>
                         <div className="d-flex">

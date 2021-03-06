@@ -1,36 +1,56 @@
-.logo{
+.logo {
     width: 140px;
 }
+
 button#dropdown-basic-button {
     background: transparent;
     color: #000;
     border: none;
 }
+
 button#dropdown-basic-button:foucs {
     background: transparent;
     color: #000;
     border: none;
 }
-.custome-search{
+
+.custome-search {
     width: 420px;
-    /* background-color: #f7f7f7!important; */
     border-radius: 6px;
     padding: 1px 20px;
     margin-left: 15%;
 }
+
 input.mr-sm-2.custome-form.form-control {
     border: none;
     background: none;
     width: 275px!important;
 }
+
 i.fas.fa-search.search-icon {
     margin-top: 10px;
     color: #adacac;
     font-size: 20px;
     cursor: pointer;
 }
-.btn-signup{
+
+.btn-signup {
     background-color: #EAA451!important;
     color: #fff!important;
     padding: 0px 20px!important;
+}
+@media (max-width: 991px) {
+    .custome-search {
+        width: 96.5%;
+        border-radius: 6px;
+        padding: 1px 20px;
+        margin-left: 15px;
+    }
+    i.fas.fa-search.search-icon {
+        position: absolute;
+        right: 40px;
+        color: #adacac;
+        font-size: 20px;
+        cursor: pointer;
+    }
 }

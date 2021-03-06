@@ -16,20 +16,19 @@ const LetestNews = () => {
             <Row className="mt-4">
                 {
                     letestNews.length > 0 && letestNews.map((item, index) => (
-                        <Col md={3} key={index}>
+                        <Col lg={3} md={6} key={index}>
                             <Card className="m-1 news-card mt-3">
                                 <Card.Img variant="top" src={item.image} />
                                 <Card.Body>
                                     <Card.Title>{item.title}</Card.Title>
                                     <Card.Text>
                                         <div className="d-flex mb-3">
-                                           <small className="author mr-2">{item.author}</small>
-                                           <small className="date">{item.date}</small>
+                                            <small className="author mr-2">{item.author}</small>
+                                            <small className="date">{item.date}</small>
                                         </div>
                                         <small className="description">{item.description}</small>
                                     </Card.Text>
 
-                                    {/* <p className="font-weight-bold">{item.author}</p> */}
                                 </Card.Body>
                                 <Card.Footer className="news-bottom">
                                     <p>Continue Reading</p>

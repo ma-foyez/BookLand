@@ -9,7 +9,7 @@ const BookCard = () => {
             <Row className="mt-5 justify-content-center">
                 {
                     booksData.length > 0 && booksData.map((item, index) => (
-                        <Col md={4} key={index}>
+                        <Col lg={4} md={6} key={index}>
                             <Card className="m-1 custom-card">
                                 <Card.Img variant="top" src={item.image} />
                                 <Card.Body>
