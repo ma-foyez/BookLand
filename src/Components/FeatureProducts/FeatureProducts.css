@@ -47,3 +47,10 @@ img.carouselImg.img-fluid {
     opacity: .75;
     color: #eaa451;
 }
+
+@media (max-width: 991px) {
+    img.carouselImg.img-fluid {
+        height: 447px;
+        width: 520px;
+    }
+}
