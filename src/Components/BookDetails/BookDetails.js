@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Badge, Col, Container, Row } from 'react-bootstrap';
 import booksData from '../../assets/staticData/booksData'
 import { Avatar, Rate } from 'rsuite';
 import './BookDetails.css'
 import FaceIcon from '@material-ui/icons/Face';
+import { Link } from '@material-ui/core';
+import RelatedBooks from '../RelatedBooks/RelatedBooks';
 
 const BookDetails = ({ id }) => {
     const filterBookData = booksData.find(item => item.id == id);
     const [rateValue, setRateValue] = useState(filterBookData.rating);
 
+    const [cartValue, setCartValue] = useState(1)
     return (
         <>
             <Container>
@@ -70,9 +73,31 @@ const BookDetails = ({ id }) => {
                         <p className="mt-4">
                             {filterBookData.description}
                         </p>
+                        <Row className="mt-4">
+                            <Col md={6}>
+                                <div className="price d-flex">
+                                    <h4 className="regularPrice mr-2">${filterBookData.price}</h4>
+                                    <h6 className="offerPrices mr-4">${filterBookData.offerPrice}</h6>
+                                    <Badge className="custom_badge">5%</Badge>
+                                </div>
+                            </Col>
+                            <Col md={6}>
+                                <div className="d-flex justify-content-between">
+                                    <div className="increase-decrease d-flex shadow-sm p-3 mb-5 bg-body rounded align-items-center justify-content-center">
+                                        <i className="fas fa-minus" onClick={() => setCartValue(cartValue - 1)}></i>
+                                        <input type="text" value={cartValue} />
+                                        <i className="fas fa-plus" onClick={() => setCartValue(cartValue + 1)}></i>
+                                    </div>
+                                    <div className="mt-3">
+                                        <Link to={``} className="btn custome-btn mb-0"><i className="fas fa-cart-plus ml-1"> Add to cart</i></Link>
+                                    </div>
+                                    <i class="far fa-heart custome-heart-icon mt-4"></i>
+                                </div>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
-
+                <RelatedBooks id={id} />
             </Container>
         </>
     );

@@ -1,0 +1,53 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    background-color: #fff;
+    border-bottom: 1px solid #eaa451!important;
+    font-weight: 700;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    color: gray;
+    border-top-right-radius: .25rem;
+    font-weight: 700;
+}
+
+.bookImg img {
+    height: 170px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.relatedBooks {
+    transition: 0.7s;
+    padding: 15px;
+}
+
+.relatedBooks:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px -1px 16px 0px rgb(47 47 47 / 77%);
+    -moz-box-shadow: 0px -1px 16px 0px rgb(47 47 47 / 77%);
+    box-shadow: 0px -1px 16px 0px rgb(47 47 47 / 77%);
+}
+
+.subTitle {
+    color: #eaa451;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.relatedBooksBtn {
+    border: 1px solid #eaa451;
+    color: #eaa451;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+.relatedBooksBtn:hover {
+    background: #eaa451;
+    color: #fff;
+}

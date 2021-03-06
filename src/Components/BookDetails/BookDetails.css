@@ -25,3 +25,33 @@
 .bookPubliser{
     margin-right: 10px;
 }
+.offerPrices {
+    color: rgb(177 177 177);
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+.custom_badge {
+    background: #FF754C;
+    color: #fff;
+    padding: 3px 15px!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px;
+}
+.increase-decrease{
+    width: 100px!important;
+}
+.increase-decrease i{
+    color: #EAA451;
+    cursor: pointer;
+}
+.increase-decrease input{
+    border: none;
+    outline: none;
+    width: 60%;
+    text-align: center;
+    margin: 0px 10px;
+}
+.custome-heart-icon{
+    color: #EAA451;
+    margin-right: 20px;
+}
